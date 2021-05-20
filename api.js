@@ -15,7 +15,7 @@ const obtenerClima=()=>{
 const consultarAPI=async(ciudad)=>{
 
 
-const apiKey ='cdc048a2231b62725e4ac20811b5551c';
+const apiKey ='API KEY';
 const url=`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`;
 
 const respuesta=await fetch(url);
