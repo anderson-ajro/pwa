@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+  <title>Anderson J., Rodríguez O. Cátedra PWA </title>
+
+
+</head>
+
+<body>
+
+  <section class="top-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 ">
+          <h1 class="heading">Conoce el clima en tu ciudad</h1>
+          <form>
+            <input type="text" placeholder="Ingresa una ciudad" id="ciudad" autofocus>
+            <button type="button" onclick="obtenerClima()">Conocer</button>
+            <span class="msg" id="msg-error"></span>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="container">
+    
+          <div id="divResuelto">
+          <div id="main2" class="col-md-5 col-lg-4 col-12">
+            <div>
+                  <script src="api.js"></script>
+            </div>
+        </div>
+
+      </div>
+
+
+        </div>
+
+
+  
+  </section>
+
+
+
+
+
+
+
+  <footer class="page-footer">
+  </footer>
+</body>
+
+</html>
